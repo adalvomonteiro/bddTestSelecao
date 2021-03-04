@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-04T01:38:59.191Z",
+        "line": 4,
+        "name": "Usuario preencher formulario completo com sucesso",
+        "description": "",
+        "id": "formulario-tricentis;usuario-preencher-formulario-completo-com-sucesso",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat StepDefinitions.FormSteps.usuario_preencher_todas_as_informacoes_do_formulario(FormSteps.java:14)\r\n\tat ✽.Usuario preencher todas as informacoes do formulario(file:///C:/Users/Adalvo/eclipse-workspace/CucumberJava/src/test/resources/Features/tricentis.feature:5)\r\n",
+              "duration": 1994500,
+              "status": "pending"
+            },
+            "line": 5,
+            "name": "Usuario preencher todas as informacoes do formulario",
+            "match": {
+              "location": "StepDefinitions.FormSteps.usuario_preencher_todas_as_informacoes_do_formulario()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Usuario acessar a url do formulario",
+            "match": {
+              "location": "StepDefinitions.FormSteps.usuario_acessar_a_url_do_formulario()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Usuario preencher todos os campos existentes no formulario",
+            "match": {
+              "location": "StepDefinitions.FormSteps.usuario_preencher_todos_os_campos_existentes_no_formulario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Usuario clicar no botao enviar",
+            "match": {
+              "location": "StepDefinitions.FormSteps.usuario_clicar_no_botao_enviar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Usuario vera a mensagem:Sending e-mail success!",
+            "match": {
+              "location": "StepDefinitions.FormSteps.usuario_vera_a_mensagem_Sending_e_mail_success()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Formulario Tricentis",
+    "description": "  Como o usuario preenche o Formulario de Cadastro da Tricentis",
+    "id": "formulario-tricentis",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/tricentis.feature",
+    "tags": []
+  }
+]

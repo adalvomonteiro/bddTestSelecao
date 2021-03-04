@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="1" tests="1" time="0.255">
+    <testcase classname="Formulario Tricentis" name="Usuario preencher formulario completo com sucesso" time="0.038">
+        <skipped>
+            <![CDATA[Given Usuario preencher todas as informacoes do formulario..................pending
+When Usuario acessar a url do formulario....................................skipped
+And Usuario preencher todos os campos existentes no formulario..............skipped
+And Usuario clicar no botao enviar..........................................skipped
+Then Usuario vera a mensagem:Sending e-mail success!........................skipped
+]]>
+        </skipped>
+    </testcase>
+</testsuite>
